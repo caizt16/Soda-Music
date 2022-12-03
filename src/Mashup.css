@@ -1,0 +1,101 @@
+.header {
+  height: 160px;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header * {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+}
+
+.header_action_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_action_list img {
+  width: 53px;
+  height: 53px;
+  border-radius: 360px;
+}
+
+.header > h1 {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.header > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+
+  font-size: 10px;
+  line-height: 15px;
+  color: #a9a9a9;
+}
+
+.action_list {
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.action_list * {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.action_list * > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.save_button * {
+  color: #1db954;
+}
+
+.bottom_spacing {
+  height: 100px;
+}
+
+.bottom_control {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+}
+
+.bottom_control > .songRow > .songRow__info {
+  margin-left: 7px;
+}
+
+.bottom_control > .songRow > .songRow__album {
+  height: 41px;
+  width: 41px;
+  border-radius: 3px;
+}
+
+.duration_progress > * {
+  background-color: #ff5c00 !important;
+}
+
+.confirm_dialog,
+.confirm_dialog * {
+  background-color: unset;
+}

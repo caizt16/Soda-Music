@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.songRow {
+  margin: 0 10px;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+  z-index: 100;
+  color: white;
+}
+
+.songRow_hover {
+  margin: 0 10px;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+  z-index: 100;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.songRow__info {
+  flex-grow: 1;
+  min-width: 0;
+  margin: 0 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.songRow__info * {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.songRow__info > h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.songRow__info > p {
+  font-weight: 500;
+  color: #505050;
+}
+
+.songRow_hover * {
+  background-color: black;
+}
+
+.songRow__album {
+  height: 62px;
+  width: 62px;
+  border-radius: 3px;
+}
+
+.songRow__liked {
+  display: flex;
+  margin: 5px;
+}
+
+.songRow__liked > img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 5px;
+  border-radius: 360px;
+}
+
+.songRow__liked > .heart * {
+  position: relative;
+  top: 15px;
+  left: -5px;
+}

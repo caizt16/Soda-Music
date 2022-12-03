@@ -1,0 +1,80 @@
+.MyFavorite,
+.MashupPlaylists {
+  padding: 15px;
+  background: #202120;
+  border-radius: 8px;
+}
+
+.MyFavorite *,
+.MashupPlaylists * {
+  background: #202120;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.MyFavorite {
+  display: flex;
+}
+
+.MashupPlaylist_Thumbnail,
+.MyFavorite_Thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.heart {
+  background-color: transparent;
+}
+
+.Content {
+  width: auto;
+  margin: auto 15px;
+  text-align: start;
+}
+.MashupPlaylists_header > h1,
+.Content > h1 {
+  font-size: 13px;
+  line-height: 20px;
+}
+.Content > p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #505050;
+}
+
+.MashupPlaylists_header > h1 {
+  color: #505050;
+}
+
+.MashupPlaylists_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MashupPlaylists_header * {
+  width: auto;
+}
+
+.MashupPlaylist {
+  display: flex;
+  margin-top: 15px;
+}
+
+.MashupPlaylist_Thumbnail > img {
+  height: 22px;
+  width: 22px;
+
+  position: relative;
+  left: 15px;
+  top: 15px;
+
+  border: 2px solid #202120;
+  border-radius: 2px;
+}

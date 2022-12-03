@@ -1,0 +1,160 @@
+.MySpace {
+  padding: 0px 35px;
+}
+
+.MySpace > * {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.MySpace * {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.MySpace_Header {
+  height: auto;
+  padding: 20px 0;
+}
+
+.header_top {
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_top > h1 {
+  width: auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header_top_action {
+  width: auto;
+  display: flex;
+}
+
+.header_top_action > * {
+  margin: 0 10px;
+}
+
+.header_profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_profile img {
+  width: 90px;
+  height: 90px;
+  border-radius: 360px;
+  margin-right: 35px;
+}
+
+.header_profile_right_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header_profile_status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_profile_action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_profile_action > button {
+  width: auto;
+  white-space: nowrap;
+  text-align: center;
+
+  padding: 7px 15px;
+  gap: 10px;
+
+  border: 0;
+  background: #262626;
+  box-shadow: none;
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.StatusCount > p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.StatusCount > p2 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.TasteMatches_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.TasteMatches_title > * {
+  width: auto;
+}
+
+.TasteMatches_title > h1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.TasteMatches_content {
+  display: flex;
+}
+
+.Match * {
+  background-color: unset;
+}
+.Match img {
+  width: 65px;
+  height: 65px;
+  border-radius: 360px;
+  padding: 2px;
+
+  /* border: 7px solid transparent;
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(90deg, #ff5c00 10.47%, #ffb800 100%) border-box; */
+}
+
+.Match > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.Match > h1 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+
+  background: linear-gradient(90deg, #ff5c00 10.47%, #ffb800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
